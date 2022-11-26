@@ -35,7 +35,7 @@ The workshop will be a mix of theoretical, hands-on, collaboration and solo work
 
 <details><summary>What will you need?</summary><p>
 
-See [Before the Workshop](#before-the-workshop)
+See [Before the Workshop](#0-before-the-workshop)
 
 </p></details>
 
@@ -43,7 +43,7 @@ See [Before the Workshop](#before-the-workshop)
 
 ## Workshop Details
 
-### Before the Workshop
+### [0] Before the Workshop
 **NOTE: We'll provide optional time prior to the workshop for set up help for people who need it**
 
 <details>
@@ -58,7 +58,7 @@ See [Setup Instructions](./workshop-content/00-set-up.md)
 
 </details>
 
-### Workshop content
+### [1] Workshop - part 1
 <details>
   <summary>Expand</summary>
 
@@ -71,6 +71,15 @@ See [Setup Instructions](./workshop-content/00-set-up.md)
   - CDK synth
   - CDK diff
   - CDK deploy
+
+</details>
+
+### [2] ~ Break ~
+
+### [3] Workshop - part 2
+<details>
+  <summary>Expand</summary>
+
 - Deploy a custom construct
   - Bucket configured as a static site
 - Complex example of infra or configuration?
@@ -80,4 +89,6 @@ See [Setup Instructions](./workshop-content/00-set-up.md)
 
 </details>
 
-_Wrap Up and Q&A_
+### [4] ~ Break ~
+
+### [5] Wrap-up and Q&A
