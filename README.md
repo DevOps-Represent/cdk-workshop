@@ -1,29 +1,29 @@
-# Terraform Workshop
+# CDK Workshop
 
-DevOps Girls with the massive support from SEEKers are hosting workshops on Terraform!
+DevOps Represent with the massive support from SEEKers are hosting workshops on CDK!
 
 <details><summary>Who would benefit from this workshop?</summary><p>
 
 - People in tech exploring options for 'infrastructure as code'
 - Anyone looking to add new skills to their resume
-- People in tech curious about Terraform, but haven't had a chance to use it
+- People in tech curious about CDK, but haven't had a chance to use it
+- People with javascript/Typescript knowledge wanting to try infrastructure as code
 
 </p></details>
 
 <details><summary>What will we be covering in 1 workshop?</summary><p>
 
-- High level introduction of Terraform concepts
-- Terraform file structures
-- Setting up a remote state in AWS
-- Configuring an s3 bucket for website hosting
-- Terraform in the command line
-- Clean up/Summary
+- Introduction to CDK
+- Creating and deploying infrastructure with CDK
+- Creating your own constructs
+- Environment configuration
 
 </p></details>
 
 <details><summary>What we won't be covering</summary><p>
 
 - This will not be covering AWS cloud 101 topics, see our previous bootcamp content for this
+- Javascript/Typescript coding fundamentals
 
 </p></details>
 
@@ -39,7 +39,7 @@ The workshop will be a mix of theoretical, hands-on, collaboration and solo work
 - Access to an AWS account with Admin Privileges
 - Time to complete set-up steps prior to the workshop - Set Up Steps are [HERE](workshop-content/00-set-up.md)
 
-**NOTE: We'll provide optional time prior to the workshop for set up help for peope who need it**
+**NOTE: We'll provide optional time prior to the workshop for set up help for people who need it**
 
 </p></details>
 
@@ -50,23 +50,26 @@ The workshop will be a mix of theoretical, hands-on, collaboration and solo work
 # Workshop Details
 
 ## Before the Workshop
-[Set Up Instructions](workshop-content/00-set-up.md)
+- NodeJS
+- AWS CLI
+- Code editor with Typescript support (VSCode is recommended if you're not sure)
 
-*Reach out to the DevOps Girls slack community before the workshop if you're having any issues with your set up, we will be happy to help!*
-*If you're not a member of a slack community, you can DM on Twitter for an invite - [@DevOpsGirls](https://twitter.com/DevOpsGirls)*
-
-## PART 1
-[Key Concepts](workshop-content/01-key-concepts.md)
-
-[File Structure](workshop-content/02-file-structure.md)
-
-[Remote State Set Up](workshop-content/03-remote-state-set-up.md)
-
-[Command Line](workshop-content/04-command-line.md)
-
-*Break*
-
-## Part 2
+## Workshop content
+- CDK concepts
+  - App, Stack, Constructs
+- Create your first application stack
+  - Scaffold app with App and Stack
+  - Create a bucket
+- Working with the CDK CLI
+  - CDK synth
+  - CDK diff
+  - CDK deploy
+- Deploy a custom construct
+  - Bucket configured as a static site
+- Complex example of infra or configuration?
+  - idea for complex infra: build something that talks to each other
+  - idea for complex config: environment variables to deploy to different "stages"
+- Cleanup
 
 [Terraform Files](workshop-content/05-terraform-files.md)
 
