@@ -64,9 +64,9 @@ See [Setup Instructions](./workshop-content/00-set-up.md)
 
 - CDK concepts
   - Constructs, Stack, App
-- Create your first application stack
-  - Scaffold app with App and Stack
-  - Create a bucket
+- Create your first application
+  - Scaffold app with App and Stack constructs
+  - Add an S3 Bucket
 - Working with the CDK CLI
   - CDK synth
   - CDK diff
@@ -80,11 +80,8 @@ See [Setup Instructions](./workshop-content/00-set-up.md)
 <details>
   <summary>Expand</summary>
 
-- Deploy a custom construct
-  - Bucket configured as a static site
-- Complex example of infra or configuration?
-  - idea for complex infra: build something that talks to each other
-  - idea for complex config: environment variables to deploy to different "stages"
+- Create and deploy a custom construct
+- Deploying to different environments
 - Cleanup
 
 </details>
