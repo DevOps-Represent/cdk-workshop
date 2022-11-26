@@ -1,0 +1,16 @@
+{
+  "name": "my-first-cdk-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cdk": "cdk"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "aws-cdk": "^2.51.1",
+    "aws-cdk-lib": "^2.51.1"
+  }
+}
