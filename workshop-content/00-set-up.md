@@ -1,4 +1,4 @@
-# Set-Up
+# Setup Instructions
 In this section, we're going to get everything we need ready to complete the workshop steps.
 
 Here's what you'll need:
@@ -6,7 +6,7 @@ Here's what you'll need:
 2. [Install Terraform](#install-terraform)
 3. [Windows Instructions](#windows-instructions)
 4. [Have a personal AWS account](#personal-aws-account)
-5. [Install AWS CLI and auth via the commandline](#install-the-aws-cli-and-auth-via-the-command-line) 
+5. [Install AWS CLI and auth via the commandline](#install-the-aws-cli-and-auth-via-the-command-line)
 6. [Have a code editor of your choice](#code-editor)
 
 ***
@@ -19,7 +19,7 @@ Choose a directory where you'd like to clone this repo to (it could even just be
 
 Run the following in your command line
 
-`git clone git@github.com:DevOps-Girls/terraform-workshop.git`
+`git clone git@github.com:DevOps-Represent/cdk-workshop.git`
 
 If you don't have a GitHub account, download the zip folder of the repo:
 [Repo Zip Download](https://github.com/DevOps-Girls/terraform-workshop/archive/refs/heads/main.zip)

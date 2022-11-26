@@ -7,7 +7,7 @@ DevOps Represent with the massive support from SEEKers are hosting workshops on 
 - People in tech exploring options for 'infrastructure as code'
 - Anyone looking to add new skills to their resume
 - People in tech curious about CDK, but haven't had a chance to use it
-- People with javascript/Typescript knowledge wanting to try infrastructure as code
+- Engineers looking to broaden their infrastructure knowledge
 
 </p></details>
 
@@ -35,28 +35,35 @@ The workshop will be a mix of theoretical, hands-on, collaboration and solo work
 
 <details><summary>What will you need?</summary><p>
 
-
-- Access to an AWS account with Admin Privileges
-- Time to complete set-up steps prior to the workshop - Set Up Steps are [HERE](workshop-content/00-set-up.md)
-
-**NOTE: We'll provide optional time prior to the workshop for set up help for people who need it**
+See [Before the Workshop](#before-the-workshop)
 
 </p></details>
 
 ***
 
+## Workshop Details
 
+### Before the Workshop
+**NOTE: We'll provide optional time prior to the workshop for set up help for people who need it**
 
-# Workshop Details
+<details>
+  <summary>Prequisite setup</summary>
 
-## Before the Workshop
-- NodeJS
-- AWS CLI
-- Code editor with Typescript support (VSCode is recommended if you're not sure)
+- Install a code editor with Typescript support ([Visual Studio Code](https://code.visualstudio.com/) is recommended)
+- Install [NodeJS](https://nodejs.org/en/download/current/)
+- Have an AWS account and associated credentials (eg. an IAM user) with "AdministratorAccess"
+- Install AWS CLI and configure it with the credentials
 
-## Workshop content
+See [Setup Instructions](./workshop-content/00-set-up.md)
+
+</details>
+
+### Workshop content
+<details>
+  <summary>Expand</summary>
+
 - CDK concepts
-  - App, Stack, Constructs
+  - Constructs, Stack, App
 - Create your first application stack
   - Scaffold app with App and Stack
   - Create a bucket
@@ -71,9 +78,6 @@ The workshop will be a mix of theoretical, hands-on, collaboration and solo work
   - idea for complex config: environment variables to deploy to different "stages"
 - Cleanup
 
-[Terraform Files](workshop-content/05-terraform-files.md)
+</details>
 
-[Deploy Update Destroy](workshop-content/06-deploy-update-destroy.md)
-
-
-*Wrap Up and Q&A*
+_Wrap Up and Q&A_
