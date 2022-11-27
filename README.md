@@ -1,4 +1,4 @@
-# CDK Workshop
+# AWS CDK Workshop
 
 DevOps Represent with the massive support from SEEKers are hosting workshops on CDK!
 
@@ -13,10 +13,10 @@ DevOps Represent with the massive support from SEEKers are hosting workshops on 
 
 <details><summary>What will we be covering in 1 workshop?</summary><p>
 
-- Introduction to CDK
+- Introduction to AWS Cloud Development Kit (CDK)
 - Building and deploying a CDK project
-- Creating your own constructs
-- Environment configuration
+- Creating your own CDK constructs
+- Environment configuration for the real world
 
 </p></details>
 

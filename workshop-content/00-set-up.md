@@ -7,7 +7,6 @@ Here's what you'll need:
 3. [Install NodeJS](#install-nodejs)
 4. [Install a code editor of your choice](#install-a-code-editor-of-your-choice)
 5. [Clone the repo to your local machine](#clone-the-repo-to-your-local-machine)
-6. [Install project dependencies](#install-project-dependencies)
 
 ***
 
@@ -76,18 +75,4 @@ Run the following in your command line
 If you don't have a GitHub account, download the zip folder of the repo:
 [Repo Zip Download](https://github.com/DevOps-Represent/cdk-workshop/archive/refs/heads/main.zip)
 
-## Install project dependencies
-Now that you've installed Node, you should now be able setup the skeleton project.
-
-The project uses npm for package management. From the root of the project directory in your command line, navigate to the `/src` directory and install the project dependencies:
-
-```sh
-cd src
-npm install
-```
-
-You should then see the following message if it's successful:
-```
-Successfully installed npm packages 👍
-```
 ## [NEXT SECTION  - Introduction to CDK ➡](01-introduction-to-cdk.md)

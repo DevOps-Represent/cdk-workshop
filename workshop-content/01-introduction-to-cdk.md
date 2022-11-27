@@ -15,4 +15,4 @@ It uses programming languages instead of languages commonly used for configurati
 - Stacks - Represents a deployable unit, often a group of related constructs.
 - App - Apps provide context to other constructs and allows you to create a shared scope for your Stacks. It's responsible for assembling your code into artifacts needed to deploy your code
 
-## [NEXT SECTION  - Building and deploying CDK projects ➡](02-building-and-deploying.md)
+## [NEXT SECTION  - Create a new CDK project ➡](02-create-new-cdk-project.md)
