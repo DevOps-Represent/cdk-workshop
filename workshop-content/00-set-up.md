@@ -41,7 +41,7 @@ Then following the prompts you need to provide:
 ## Install NodeJS
 The content in this workshop is written in Typescript, and requires NodeJS to run.
 
-Download and install NodeJS
+[Download and install NodeJS LTS](https://nodejs.org/en/download/)
 
 After you've successfully installed it, check that it's working by running the following in your command line:
 
