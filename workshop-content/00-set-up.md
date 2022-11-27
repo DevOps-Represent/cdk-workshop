@@ -77,9 +77,10 @@ It should print out the version of the Node runtime you installed.
 ## Install project dependencies
 Now that you've installed Node, you should now be able setup the skeleton project.
 
-The project uses npm for package management. To install the project packages, enter in your command line:
+The project uses npm for package management. From the root of the project from your command line, navigate to the `/src` directory and install the project dependencies:
 
 ```sh
+cd src
 npm install
 ```
 
