@@ -1,13 +1,14 @@
 {
   "name": "my-first-cdk-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Devops Represent CDK workshop app",
   "main": "index.js",
   "scripts": {
-    "cdk": "cdk"
+    "cdk": "cdk",
+    "postinstall": "echo \"Successfully installed npm packages 👍\""
   },
   "keywords": [],
-  "author": "",
+  "author": "lizacodes",
   "license": "ISC",
   "devDependencies": {
     "aws-cdk": "^2.51.1",
