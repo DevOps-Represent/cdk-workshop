@@ -3,14 +3,12 @@ In this section, we're going to get everything we need ready to complete the wor
 
 Here's what you'll need:
 1. [Clone the repo to your local machine](#clone-the-repo-to-your-local-machine)
-2. [Install Terraform](#install-terraform)
-3. [Windows Instructions](#windows-instructions)
-4. [Have a personal AWS account](#personal-aws-account)
-5. [Install AWS CLI and auth via the commandline](#install-the-aws-cli-and-auth-via-the-command-line)
-6. [Have a code editor of your choice](#code-editor)
+2. [Install project dependencies](#install-project-dependencies)
+3. [Have a personal AWS account](#personal-aws-account)
+4. [Install AWS CLI and auth via the command line](#install-the-aws-cli-and-auth-via-the-command-line)
+5. [Have a code editor of your choice](#code-editor)
 
 ***
-
 
 ## Clone the Repo to your local machine
 Clone this repo. You're going to make it your own and make edits. It's yours to keep and play around.
@@ -22,49 +20,7 @@ Run the following in your command line
 `git clone git@github.com:DevOps-Represent/cdk-workshop.git`
 
 If you don't have a GitHub account, download the zip folder of the repo:
-[Repo Zip Download](https://github.com/DevOps-Girls/terraform-workshop/archive/refs/heads/main.zip)
-
-## Install Terraform
-Terraform is used via commands in the command line. For these to work, you need to install it.
-
-Here's how:
-
-### Mac
-Follow the instructions in this simple Medium article, let the coaches know if you get stuck!
-
-[Simple Instructions](https://medium.com/@akkireddy/how-to-install-terraform-on-macos-3e09d6a536b1)
-
-Alternatively, you may also be able to run the following:
-
-`brew install terraform`
-
-This is a good option if you've used `brew` previously for installing software onto your Mac
-
-## Windows Instructions
-This walkthrough has a few options for installing Terraform for Windows, take the time to have a look at what best works for you:
-
-#### WSL Install (Linux on Windows)
-Check your version of Windows
-
-* Press `Windows key` + `R`
-* Type: `winver`
-Recquired Version: 1903 or higher
-
-![Windows Version Example](../images/winver.png)
-
-
-* If the version is OK, follow these instructions [Windows Subsystem for Linux Installation Guide for Windows 10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
-
-#### Docker Install (Ubuntu)
-* If the version is older, then the easiest option is to use Docker - [Install Docker for Windows](https://docs.docker.com/docker-for-windows/install/)
-
-* Run docker to spin up a Ubuntu container:
-`docker run -it -v //C/path/to/repo:/devopsgirl-terraform ubuntu:latest --name devopsgirls-terraform`
-
-
-Once you have WSL or Ubuntu using docker, you can now follow the same instructions for Mac to install Terraform
-
-**Here's a link for [Trouble Shooting Tips](https://docs.microsoft.com/en-us/windows/wsl/install-win10#manual-installation-steps)**
+[Repo Zip Download](https://github.com/DevOps-Represent/cdk-workshop/archive/refs/heads/main.zip)
 
 ## Personal AWS Account
 If you don't already have one, you'll have to set up a personal AWS account. If you don't have one, having an AWS account is key if you intend on continuing your AWS learning journey after this workshop.
@@ -94,14 +50,41 @@ Then following the prompts you need to provide:
 
 
 ## Code Editor
-We're going to be writing and editing lines of Terraform config. To do this, it's best to use a code editor.
+We're going to be writing and editing lines of Typescript code. To do this, it's best to use a code editor.
 
 There's lots of free versions, here's a few to pick from if you don't already have one:
 
-[Visual Studio Code](https://code.visualstudio.com/)
-[Atom](https://github.com/atom)
-[Sublime Text 3](https://www.sublimetext.com/3)
+- [Visual Studio Code](https://code.visualstudio.com/) (recommended) - Provides out-of-the-box support for Typescript
+- [Sublime Text 3](https://www.sublimetext.com/3)
+- [Atom](https://github.com/atom)
+- [Webstorm](https://www.jetbrains.com/webstorm/) - 30 day trial or paid license. Great IDE if you can get your company to pay for it.
 
 Here's an even longer [list](https://hackr.io/blog/web-development-ide)
 
+
+## NodeJS
+The content in this workshop is written in Typescript, and requires NodeJS to run.
+
+Download and install NodeJS
+
+After you've successfully installed it, check that it's working by running the following in your command line:
+
+```sh
+node -v
+```
+It should print out the version of the Node runtime you installed.
+
+## Install project dependencies
+Now that you've installed Node, you should now be able setup the skeleton project.
+
+The project uses npm for package management. To install the project packages, enter in your command line:
+
+```sh
+npm install
+```
+
+You should then see the following message if it's successful:
+```
+Successfully installed npm packages 👍
+```
 ## [NEXT SECTION  - Key Concepts 👉🏽](01-key-concepts.md)
