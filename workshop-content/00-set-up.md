@@ -87,4 +87,4 @@ You should then see the following message if it's successful:
 ```
 Successfully installed npm packages 👍
 ```
-## [NEXT SECTION  - Key Concepts 👉🏽](01-key-concepts.md)
+## [NEXT SECTION  - Introduction to CDK ➡](01-introduction-to-cdk.md)

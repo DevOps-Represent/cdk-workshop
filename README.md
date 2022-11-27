@@ -14,7 +14,7 @@ DevOps Represent with the massive support from SEEKers are hosting workshops on 
 <details><summary>What will we be covering in 1 workshop?</summary><p>
 
 - Introduction to CDK
-- Creating and deploying infrastructure with CDK
+- Building and deploying a CDK project
 - Creating your own constructs
 - Environment configuration
 
@@ -64,9 +64,6 @@ See [Setup Instructions](./workshop-content/00-set-up.md)
 
 - CDK concepts
   - Constructs, Stack, App
-- Create your first application
-  - Scaffold app with App and Stack constructs
-  - Add an S3 Bucket
 - Working with the CDK CLI
   - CDK synth
   - CDK diff
