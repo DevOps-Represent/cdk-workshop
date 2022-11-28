@@ -8,7 +8,7 @@ We'll focus on commonly used commands and how you'll use them in conjunction wit
 We will be working from the `./src/infrastructure` directory. Make sure you navigate to it in your command line before running any of the commands below.
 
 ## `cdk bootstrap`
-Before you can deploy anything with CDK, you must first "bootstrap" your AWS account. What this means is that CDK to deploy some resources and assign permissions so that it's able handle interactions with AWS. You need to make sure you bootstrap the AWS account you intend to deploy to.
+Before you can deploy anything with CDK, you must first "bootstrap" your AWS account. What this means is that CDK needs to deploy some resources and assign permissions in your account so that it's able handle interactions with AWS. You need to make sure you bootstrap the AWS account you intend to deploy to.
 
 We'll stick to `us-east-1` as the region. Run the command below to bootstrap your AWS account.
 
