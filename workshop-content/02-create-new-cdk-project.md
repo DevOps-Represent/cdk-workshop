@@ -1,11 +1,17 @@
 # Create a new CDK project
 
-```sh
-npm install -g aws-cdk
-cd src/infrastructure
+Run the following commands line-by-line to create a new CDK project.
 
-cdk init app --language typescript
+```sh
+npm install -g aws-cdk              # install the AWS CDK CLI
+mkdir src/infrastructure            # create a new directory called "infrastructure" under "src"
+cd src/infrastructure               # navigate to the infrastrcture directory
+cdk init app --language typescript  # initialise a new CDK app in TypeScript
 ```
+
+You should now see a lot of new files in the `infrastructure` directory.
+
+## What's in our project?
 
 Before we dive in, let's get to know a little bit about the skeleton application CDK has created for us:
 

@@ -53,10 +53,11 @@ See [Before the Workshop](#0-before-the-workshop)
 - Install [NodeJS](https://nodejs.org/en/download/current/)
 - Have an AWS account and associated credentials (eg. an IAM user) with "AdministratorAccess"
 - Install AWS CLI and configure it with the credentials
-
-See [Setup Instructions](./workshop-content/00-set-up.md)
+- Clone the workshop repository
 
 </details>
+
+### ℹ See [Setup Instructions](./workshop-content/00-set-up.md) for details
 
 ### [1] Workshop - part 1
 <details>
